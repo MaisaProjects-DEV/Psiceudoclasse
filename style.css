@@ -1,0 +1,85 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body{
+
+background-color:cornflowerblue
+
+}
+
+h1{
+
+background-color:rgb(143, 177, 240)
+
+}
+
+h1:hover{/*QUANDO O MOUSE ESTIVER SOBRE UM ELEMENTO ELE MUDA DE ACORDO COM AS FUNÇÕES APLICADAS*/
+color: rgb(14, 64, 158);
+background-color: rgb(208, 221, 247);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+/*ACTIVE*/
+
+
+h2{
+
+background-color: rgb(67, 124, 185);
+
+
+
+
+}
+
+h2:active{/*QUANDO O MOUSE clicar UM ELEMENTO ELE MUDA DE ACORDO COM AS FUNÇÕES APLICADAS*/
+
+color: rgb(16, 86, 177);
+background-color: azure;
+
+}
+
+#Saude{
+
+    width: 100%;/*tamanho do quadrado*/
+    height: 400px;
+    background-color: rgb(132, 162, 236);
+    border-color: blue;
+
+}
+
+.Psicologia{
+
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    background-color: rgb(26, 78, 173);
+    display: inline-block;
+    margin-left: 160px;
+    padding-top: 140px ;
+    text-align: center;
+
+}
+
+.Psicologia:active{   /*tranform: translateY faz o botao subir quando o numero ta negativo, positico ele desce*/         /*tranform: scale muda a escala de 100%=1.0* faz o botao clicar*/
+
+color: rgb(175, 195, 231);
+background-color: rgb(20, 79, 141);
+transform: translateY(-20px);               
+transition: 1s;
+
+}
+
+
+
+
+
+
+
+
+
